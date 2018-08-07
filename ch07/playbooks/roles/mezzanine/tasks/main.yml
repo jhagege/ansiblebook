@@ -14,5 +14,6 @@
     - python-setuptools
     - python-virtualenv
     - supervisor
+    - virtualenvwrapper
 - include: django.yml
 - include: nginx.yml

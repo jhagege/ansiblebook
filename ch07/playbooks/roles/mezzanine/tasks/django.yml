@@ -7,7 +7,6 @@
   with_items:
     - pip
     - virtualenv
-    - virtualenvwrapper
   become: True
 - name: install required python packages
   pip: name={{ item }} virtualenv={{ mezzanine_venv_path }}
